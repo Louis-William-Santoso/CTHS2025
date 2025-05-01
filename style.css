@@ -1,0 +1,48 @@
+body{
+    margin : 0px;
+    height: fit-content;
+    background-color: #e7e7e7;
+}
+
+#gura{
+    height: 15rem;
+    border-radius: 20rem;
+    position: static;
+    float: right;
+    top :0px;
+    margin-right: 2rem;
+    z-index: -1;
+}
+
+#intro{
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-top: 7rem;
+    z-index: 1;
+    position: static;
+}
+
+#aboutme{
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    z-index: 1;
+    position: static;
+}
+
+#contact{
+    position: static;
+    background-color: #969696;
+    width: 100%;
+    height: 7rem;
+    font-size: 1.3rem;
+    list-style: none;
+    text-align: center;
+    bottom: 0px;
+    padding-top: 1rem;
+}
+
