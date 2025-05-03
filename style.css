@@ -1,16 +1,17 @@
 body{
     margin : 0px;
-    height: fit-content;
+    width: 100%;
+    max-height: fit-content;
     background-color: #e7e7e7;
 }
 
 #gura{
-    height: 15rem;
+    height: 23rem;
     border-radius: 20rem;
     position: static;
     float: right;
     top :0px;
-    margin-right: 2rem;
+    margin-right: 15%;
     z-index: -1;
 }
 
@@ -18,8 +19,8 @@ body{
     font-size: 1.3rem;
     list-style: none;
     margin: 1rem;
-    margin-left: 3rem;
-    margin-top: 7rem;
+    margin-left: 10%;
+    margin-top: 2rem;
     z-index: 1;
     position: static;
 }
@@ -28,21 +29,50 @@ body{
     font-size: 1.3rem;
     list-style: none;
     margin: 1rem;
-    margin-left: 3rem;
+    margin-left: 10%;
     margin-top: 2rem;
-    z-index: 1;
-    position: static;
 }
 
 #contact{
     position: static;
     background-color: #969696;
     width: 100%;
-    height: 7rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     list-style: none;
-    text-align: center;
     bottom: 0px;
-    padding-top: 1rem;
+    padding: 2rem;
+}#contact li img{
+    height: 1rem;
+}#contact li a{
+    text-decoration: none;
+    color: black;
 }
 
+#factSkills{
+    display: flex;
+    margin: 3rem;
+    margin-left: 10%;
+}#factSkills #funfacts{
+    margin-right : 10%;
+}#factSkills #skills{
+    margin-left: 10%;
+    margin-right: 0px;
+}#factSkills #skills #skillList{
+    display: flex;
+}#factSkills #skills #skillList div span{
+    display: table;
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(163, 163, 163);
+    height: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border-style: solid;
+}
+
+#projects{
+    text-align: center;
+}#projects #projectList{
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+}
