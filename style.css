@@ -33,6 +33,7 @@ body{
     margin-top: 2rem;
 }#aboutme p{
     text-align: justify;
+    width : 60%;
 }
 
 #contact{
@@ -58,9 +59,10 @@ body{
     margin-right : 10%;
 }#factSkills #skills{
     margin-left: 10%;
-    margin-right: 0px;
 }#factSkills #skills #skillList{
     display: flex;
+}#factSkills #skills #skillList div{
+    margin-right: 2rem;
 }#factSkills #skills #skillList div span{
     display: table;
     background-color: rgb(255, 255, 255);
