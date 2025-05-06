@@ -5,6 +5,7 @@ body{
     background-color: #e7e7e7;
 }
 
+/*PROFILE*/
 #gura{
     height: 23rem;
     border-radius: 20rem;
@@ -15,6 +16,7 @@ body{
     z-index: -1;
 }
 
+/*INTRODUCTION*/
 #intro{
     font-size: 1.3rem;
     list-style: none;
@@ -25,6 +27,7 @@ body{
     position: static;
 }
 
+/*ABOUT ME*/
 #aboutme{
     font-size: 1.3rem;
     list-style: none;
@@ -36,21 +39,7 @@ body{
     width : 60%;
 }
 
-#contact{
-    position: static;
-    background-color: #969696;
-    width: 100%;
-    font-size: 1.4rem;
-    list-style: none;
-    bottom: 0px;
-    padding: 2rem;
-}#contact li img{
-    height: 1rem;
-}#contact li a{
-    text-decoration: none;
-    color: black;
-}
-
+/*fUNFACT & SKILLS*/
 #factSkills{
     display: flex;
     margin: 3rem;
@@ -73,10 +62,27 @@ body{
     border-style: solid;
 }
 
+/*PROJECTS*/
 #projects{
     text-align: center;
 }#projects #projectList{
     display: flex;
     list-style: none;
     overflow-x: scroll;
+}
+
+/*CONTACT*/
+#contact{
+    position: static;
+    background-color: #969696;
+    width: 100%;
+    font-size: 1.4rem;
+    list-style: none;
+    bottom: 0px;
+    padding: 2rem;
+}#contact li img{
+    height: 1rem;
+}#contact li a{
+    text-decoration: none;
+    color: black;
 }
